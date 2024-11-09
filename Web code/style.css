@@ -7,7 +7,6 @@
 
 body {
     background-color: #fdf5f2;
-    color: #333;
     text-align: center;
 }
 
@@ -29,11 +28,11 @@ nav {
 .hamburguer {
     background-color: #fdf5f2;
     border: none;
-
+    cursor: pointer;
 }
 
 
-.link2{
+.link2 {
     background-color: #f7c5c1;
     border: none;
     padding: 10px 20px;
@@ -45,8 +44,8 @@ nav {
     font-weight: bold;
 }
 
-.more-links{
-    background-color: #f7c5c1;
+.links-more {
+    background-color: #d97573;
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -65,15 +64,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.banner.p{
-    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
-    color: white; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno para tornar o fundo mais visível */
-    border-radius: 5px; /* Arredonda os cantos do fundo */
-    display: inline-block; /* Garante que o fundo ajuste-se ao tamanho do texto */
-
 }
 
 .contact-info {
@@ -100,8 +90,15 @@ nav {
     gap: 20px;
 }
 
-.product {
+.product1 {
     text-align: center;
+    font-weight: bold ;
+}
+.product2 {
+    text-align: center;
+    font-weight: bold ;
+    /* Alinhar do lado esquerdo, igual na imagem referencial */
+    /* Arrumar o espaçamentro entre as imagens e o texto. Estão muito coladas */
 }
 
 .product img {
