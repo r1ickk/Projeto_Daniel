@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Exa';
+}
+
+body {
+    background-color: #fdf5f2;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #d97573;
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 1550px;
+    align-self: center;
+}
+
+
+.link2 {
+    background-color: #d97573;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 1em;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.links-more {
+    background-color: #d97573;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 1em;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50%;
+    width: 20%;
+}
+
+.banner {
+    background-image: url(../Assets/image\ 2\ \(1\).svg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    background-color: #d95773;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-top: -40px;
+    position: relative;
+    z-index: 2;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.Contact-footer {
+    background-color: #ff8886;
+}
+
+.Contact-p {
+    background-color: #ff8886;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social_media {
+    cursor: pointer;
+    background-color: #33333300;
+    border: none;
+    margin-top: 2rem;
+}
+
+.products {
+    margin: 40px auto;
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.product1 {
+    margin: 100px auto;
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.product2 {
+    margin: 120px auto;
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.product p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.highlight {
+    margin: 50px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.woodwork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2em;
+    color: #d97573;
+}
+
+footer {
+    background-color: #b16953;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-weight: bold;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+footer .footer-links button {
+    background-color: #f7c5c1;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.address {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
